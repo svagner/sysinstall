@@ -10,3 +10,15 @@
 *.lai
 *.la
 *.a
+
+# Build directory
+build
+
+# bak files
+*~
+
+# tags exctags
+tags
+
+# compiled prog and manuals
+*.8.gz
