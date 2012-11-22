@@ -575,7 +575,7 @@ configDiskController(dialogMenuItem *self)
 		    return DITEM_FAILURE;
 	    }
 
-	    fprintf(ldconf, "aac_lood=\"YES\"\n");
+	    fprintf(ldconf, "aac_load=\"YES\"\n");
 	    fclose(ldconf);
 	    msgDebug("Adaptec devices fount! Data is write.\n");
 	 //   dmenuOpenSimple(&MenuAdaptecControllers, FALSE);
